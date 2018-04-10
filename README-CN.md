@@ -22,7 +22,7 @@ EOS Party 测试网络是由EOS中文社区基于 `EOS DAWN 3.0` 组织创建的
 
 ### EOS环境搭建(Docker快速部署)
 
-确保的那你的服务器已经安装`Docker`和`Docker-Compose`, `Docker-Compose`不是必须.
+确保你的服务器已经安装`Docker`和`Docker-Compose`, `Docker-Compose`不是必须.
 
 - `mkdir -p /data/eos` 创建你的EOS节点数据存储的目录, 也可以是其他目录.
 - 将[config.ini](config.ini)拷贝到`/data/eos` 并修改四处地方.
