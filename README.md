@@ -1,2 +1,3 @@
-# EOS-Party-Testnet
-EOS Party Testnet by eosfans.io
+# Welcome to the EOS-Party-Testnet
+
+[中文介绍](README-CN.md)
