@@ -2,7 +2,7 @@
 
 [中文介绍](README-CN.md)
 
-Party is a testing network based on EOSIO Dawn 3.0.
+Party is an EOS testnet based on EOSIO Dawn 3.0.
 
 Telegram: https://t.me/EOSTestnet
 
