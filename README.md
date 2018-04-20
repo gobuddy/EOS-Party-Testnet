@@ -6,6 +6,8 @@ Party is a testing network based on EOSIO Dawn 3.0.
 
 Telegram: https://t.me/EOSTestnet
 
+Block Explorer: http://party.eosmonitor.io/
+
 ## Join the EOS Party Test Network
 
 Anyone can join EOS Party network as BP. Joining the EOS Party test network to become a BP requires the following steps:

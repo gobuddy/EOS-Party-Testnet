@@ -6,6 +6,8 @@ EOS Party 测试网络是由EOS中文社区基于 `EOS DAWN 3.0` 组织创建的
 
 电报群: https://t.me/EOSTestnet
 
+区块浏览器: http://party.eosmonitor.io/
+
 ## 加入 EOS Party 测试网络
 
 任何人都可以加入`EOS Party`成为BP,加入 `EOS Party` 测试网络成为BP需要以下几个步骤：
