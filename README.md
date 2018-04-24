@@ -35,6 +35,7 @@ docker run -d \
     --restart=always \
     --name party \
     -v /data/eos:/opt/eosio/bin/data-dir \
+    -v /var/eos/nodeos:/root/.local/share/eosio/nodeos \
     -p 8888:8888 \
     -p 9876:9876 \
     eosfans/eos:3.0.0 nodeosd.sh
@@ -42,7 +43,7 @@ docker run -d \
 
 Check log:
 
-`docker logs -f party`
+`docker logs -f --tail=100 party`
 
 If you see something like this, it means the connection is successful.
 
