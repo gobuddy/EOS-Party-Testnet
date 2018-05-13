@@ -1,6 +1,6 @@
 {
   "initial_timestamp": "2018-04-06T12:00:00.000",
-  "initial_key": "EOS5hepJxGjP3X93wVmXZeBSNavGWeJvwWtev5ak8oARqwrXjehXd",
+  "initial_key": "EOS7JWUDhCv6eGEoKJB4dTBF3GrLrJHT8jSeWhadpmH9Bkpt3jLy5",
   "initial_configuration": {
     "base_per_transaction_net_usage": 100,
     "base_per_transaction_cpu_usage": 500,
@@ -21,7 +21,8 @@
     "max_authority_depth": 6,
     "max_inline_depth": 4,
     "max_inline_action_size": 4096,
-    "max_generated_transaction_count": 16
+    "max_generated_transaction_count": 16,
+    "max_transaction_delay": 3888000
   },
   "initial_chain_id": "0000000000000000000000000000000000000000000000000000000000000000"
 }
