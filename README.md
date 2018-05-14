@@ -2,11 +2,11 @@
 
 [中文介绍](README-CN.md)
 
-Party is an EOS testnet based on EOSIO Dawn 3.0.
+Party is an EOS testnet based on EOSIO Dawn 4.0.
 
 Telegram: https://t.me/EOSTestnet
 
-Block Explorer: http://party.eosmonitor.io/
+~~Block Explorer: http://party.eosmonitor.io/~~
 
 ## Join the EOS Party Test Network
 
@@ -35,33 +35,34 @@ docker run -d \
     --restart=always \
     --name party \
     -v /data/eos:/opt/eosio/bin/data-dir \
-    -v /var/eos/nodeos:/root/.local/share/eosio/nodeos \
+    -v /data/eos/nodeos:/root/.local/share/eosio/nodeos \
     -p 8888:8888 \
     -p 9876:9876 \
-    eosfans/eos:3.0.0 nodeosd.sh
+    eosfans/eos:dawn-v4.0.0 nodeosd.sh
 ```
 
 Check log:
 
 `docker logs -f --tail=100 party`
 
-If you see something like this, it means the connection is successful.
+## Register an account
 
-```
-push block #129641 from eostea 2018-04-13T04:48:48.500  0001fa699519998bf954cb1a76f97dc9a15d2fb2f4ac6f806b9a795521856bd8 lib: 129628 success
-push block #129642 from eostea 2018-04-13T04:48:49.000  0001fa6a03a3046a72fc3f03cf195545d70b58acb959cb0f85b595bd097bd7f8 lib: 129628 success
-push block #129643 from eostea 2018-04-13T04:48:49.500  0001fa6b669e131f51962970d6af8eaf7c212cf212e1b676f657f5569194c2c0 lib: 129628 success
-push block #129644 from eostea 2018-04-13T04:48:50.000  0001fa6ccb9cf8c83fc34ed2b11f06ffb2c9a320b5e004327bab283d35e82f5c lib: 129628 success
-```
+You can submit an issue with the EOS public key and producer-name
 
-## Apply to us
+## Register as BP
 
-Submit an Issues and include the following information:
+* `docker exec -it party bash`
+* `cleos wallet create` Create a default wallet (it is recommended that you save wallet password)
+* `cleos wallet import {Private_Key}` Import your private key
+* `cleos system regproducer {producer-name} {public key} http://{server_ip}:8888` Register as BP
 
-- Server Location
-- Organisation
--	node ip/domain
-- Port (http)
-- Port (p2p)
-- producer name
-- your public key
+You should not yet produce a block because you don’t have a ticket.
+
+## Vote for yourself
+
+Mortgage your EOS(Suppose you have 10000):
+
+`cleos system delegatebw {producer-name} {producer-name} '10000.0000 EOS' '10000.0000 EOS' --transfer`
+
+Vote for yourself:
+`cleos system voteproducer prods {producer-name} {producer-name}`
