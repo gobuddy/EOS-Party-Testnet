@@ -1,6 +1,6 @@
 # Welcome to the EOS Party Testnet
 
-[中文介绍](README-CN.md)
+[中文介绍](https://eosfans.io/wiki/eos-party-testnet)
 
 Party is an EOS testnet based on EOSIO Dawn 4.0.
 
@@ -14,7 +14,8 @@ Anyone can join EOS Party network as BP. Joining the EOS Party test network to b
 
 - 24-hour server
 - Run a node (Recommended Docker)
-- Apply to us
+- Register as BP
+- Get votes(You can vote for yourself)
 
 ## Run a node
 
@@ -47,7 +48,7 @@ Check log:
 
 ## Register an account
 
-You can submit an issue with the EOS public key and producer-name
+Our website is under development, as a temporary plan, you can submit an issue with the EOS public key and producer-name.
 
 ## Register as BP
 
