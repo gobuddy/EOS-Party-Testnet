@@ -63,7 +63,7 @@ You should not yet produce a block because you don’t have a ticket.
 
 Mortgage your EOS(Suppose you have 10000):
 
-`cleos system delegatebw {producer-name} {producer-name} '10000.0000 EOS' '10000.0000 EOS' --transfer`
+`cleos system delegatebw {producer-name} {producer-name} '5000.0000 EOS' '5000.0000 EOS' --transfer`
 
 Vote for yourself:
 `cleos system voteproducer prods {producer-name} {producer-name}`
