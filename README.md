@@ -2,7 +2,7 @@
 
 [中文介绍](https://eosfans.io/wiki/eos-party-testnet)
 
-Party is an EOS testnet based on EOSIO Dawn 4.0.
+Party is an EOS testnet based on EOSIO Dawn 4.2.
 
 Telegram: https://t.me/EOSTestnet
 
@@ -48,7 +48,8 @@ Check log:
 
 ## Register an account
 
-Our website is under development, as a temporary plan, you can submit an issue with the EOS public key and producer-name.
+You can go [here](http://203.195.171.163:8081/) to have a account and get some fund.
+
 
 ## Register as BP
 
