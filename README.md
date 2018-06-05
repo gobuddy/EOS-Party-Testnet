@@ -39,7 +39,7 @@ docker run -d \
     -v /data/eos/nodeos:/root/.local/share/eosio/nodeos \
     -p 8888:8888 \
     -p 9876:9876 \
-    eosfans/eos:dawn-v4.2.0 nodeosd.sh
+    eosfans/eos:launch-1.0.1 nodeosd.sh
 ```
 
 Check log:
