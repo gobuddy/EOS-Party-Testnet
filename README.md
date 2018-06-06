@@ -2,11 +2,11 @@
 
 [中文介绍](https://eosfans.io/wiki/eos-party-testnet)
 
-Party is an EOS testnet based on EOSIO Dawn 4.2.
+Party is an EOS testnet based on EOSIO Dawn v1.0.1.
 
 Telegram: https://t.me/EOSTestnet
 
-~~Block Explorer: http://party.eosmonitor.io/~~
+Block Explorer: http://party.eosmonitor.io/
 
 ## Join the EOS Party Test Network
 
@@ -39,7 +39,7 @@ docker run -d \
     -v /data/eos/nodeos:/root/.local/share/eosio/nodeos \
     -p 8888:8888 \
     -p 9876:9876 \
-    eosfans/eos:dawn-v4.2.0 nodeosd.sh
+    eosfans/eos:launch-1.0.1 nodeosd.sh
 ```
 
 Check log:
