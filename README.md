@@ -2,11 +2,11 @@
 
 [中文介绍](https://eosfans.io/wiki/eos-party-testnet)
 
-Party is an EOS testnet based on EOSIO Dawn 4.0.
+Party is an EOS testnet based on EOSIO Dawn v1.0.1.
 
 Telegram: https://t.me/EOSTestnet
 
-~~Block Explorer: http://party.eosmonitor.io/~~
+Block Explorer: http://party.eosmonitor.io/
 
 ## Join the EOS Party Test Network
 
@@ -39,7 +39,7 @@ docker run -d \
     -v /data/eos/nodeos:/root/.local/share/eosio/nodeos \
     -p 8888:8888 \
     -p 9876:9876 \
-    eosfans/eos:dawn-v4.0.0 nodeosd.sh
+    eosfans/eos:launch-1.0.1 nodeosd.sh
 ```
 
 Check log:
@@ -48,7 +48,8 @@ Check log:
 
 ## Register an account
 
-Our website is under development, as a temporary plan, you can submit an issue with the EOS public key and producer-name.
+You can go [here](http://203.195.171.163:8081/) to have a account and get some fund.
+
 
 ## Register as BP
 
@@ -63,7 +64,7 @@ You should not yet produce a block because you don’t have a ticket.
 
 Mortgage your EOS(Suppose you have 10000):
 
-`cleos system delegatebw {producer-name} {producer-name} '10000.0000 EOS' '10000.0000 EOS' --transfer`
+`cleos system delegatebw {producer-name} {producer-name} '5000.0000 EOS' '5000.0000 EOS' --transfer`
 
 Vote for yourself:
 `cleos system voteproducer prods {producer-name} {producer-name}`
